@@ -2,11 +2,11 @@
 //ENTRADA, PROCESSAMENTO E SAÍDA
 //1)
 
-#include <stdio.h>
-#define PI 3.14
+    #include <stdio.h>
+    #define PI 3.14
 
-int main() 
-{
+    int main() 
+    {
     
     float raio, diametro, comprimento, area;
 
@@ -32,9 +32,9 @@ int main()
 
 //2)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
     int numero;
 
     printf("Digite um número inteiro: ");
@@ -47,10 +47,10 @@ int main() {
 
 //3)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() 
-{
+    int main() 
+    {
     
     float metros, decimetros, centimetros, milimetros;
 
@@ -69,10 +69,10 @@ int main()
 
 //4)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() 
-{
+    int main() 
+    {
     
     int numero;
 
@@ -90,10 +90,10 @@ int main()
 
 //5)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() 
-{
+    int main() 
+    {
     
     int numero;
 
@@ -109,11 +109,11 @@ int main()
 
 //6)
 
-#include <stdio.h>
-#include <math.h>
+    #include <stdio.h>
+    #include <math.h>
 
-int main() 
-{
+    int main() 
+    {
     
     float numero1, numero2;
     float soma, produto, quadrado1, raizQuadrada, seno;
@@ -147,10 +147,10 @@ int main()
 
 //7)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() 
-{
+    int main() 
+    {
     
     char nome[50];
     printf("Digite o nome: ");
@@ -161,10 +161,10 @@ int main()
 
 //8)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() 
-{
+    int main() 
+    {
     
     float preco, novoPreco;
     float desconto = 0.09; // 9% de desconto
@@ -179,10 +179,10 @@ int main()
 
 //9)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() 
-{
+    int main() 
+    {
     
     float tempo, velocidade, distancia;
 
@@ -199,10 +199,10 @@ int main()
 
 
 //10)
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() 
-{
+    int main() 
+    {
     
     int numero;
 
@@ -216,10 +216,10 @@ int main()
 
 //11)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main()
-{
+    int main()
+    {
     
     float valorHoraAula, salarioBruto, salarioLiquido;
     int numAulas;
@@ -251,10 +251,10 @@ int main()
 
 //12)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() 
-{
+    int main() 
+    {
     
     int num1, num2;
     char operacao;
@@ -295,10 +295,10 @@ int main()
 
 //13)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() 
-{
+    int main() 
+    {
     
     int idade;
 
@@ -314,9 +314,9 @@ int main()
 
 //14)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
     
     int numero;
 
@@ -332,9 +332,9 @@ int main() {
 
 //15)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
     
     int idade;
 
@@ -355,10 +355,10 @@ int main() {
 
 //16)
 
-#include <stdio.h>
-#include <math.h>
+    #include <stdio.h>
+    #include <math.h>
 
-int main() {
+    int main() {
     
     float numero;
 
@@ -374,9 +374,9 @@ int main() {
     return 0;}
 //17)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
     
     int numero;
 
@@ -396,9 +396,9 @@ int main() {
 
 //18)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
     
     float valorCompra, valorVenda;
     float lucro;
@@ -418,9 +418,9 @@ int main() {
 //19)
 
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
     
     int idade;
 
@@ -440,8 +440,8 @@ int main() {
     return 0;}
 //20)
 
-#include <stdio.h>
-int main() {
+    #include <stdio.h>
+    int main() {
     
     
     int num1, num2, num3;
@@ -476,9 +476,9 @@ int main() {
     return 0;}
 //21)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
     
     int lado1, lado2, lado3;
 
@@ -503,9 +503,9 @@ int main() {
 
 //22)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
     
     int dia, mes, ano;
 
@@ -537,9 +537,9 @@ int main() {
 //SWITCH
 //23)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
 
     int mes;
 
@@ -574,9 +574,9 @@ int main() {
 
 //24)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
 
     char tipoCarro;
     float distancia, consumo;
@@ -612,9 +612,9 @@ int main() {
 //DO, WHILE
 //25)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
 
     int numAlunos, contador = 0;
     float nota, soma = 0.0, media;
@@ -638,10 +638,10 @@ int main() {
 
 
 //26)
+    
+    #include <stdio.h>
 
-#include <stdio.h>
-
-int main() {
+    int main() {
 
     int lado, i, j;
 
@@ -669,9 +669,9 @@ int main() {
 
 //27)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
 
     int numero, i = 1;
 
@@ -689,9 +689,9 @@ int main() {
 
 //28)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
 
     int idade, contador = 1;
     float peso, media1_10 = 0, media11_20 = 0, media21_30 = 0, media30 = 0;
@@ -756,9 +756,9 @@ int main() {
 
 //29)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
 
     int contador_aluno = 1;
     float nota1, nota2, nota3, nota4;
@@ -805,9 +805,10 @@ int main() {
 
 //FOR
 //30)
-#include <stdio.h>
 
-int main() {
+    #include <stdio.h>
+
+    int main() {
     int lista[10];
     int opcao, i;
 
@@ -851,9 +852,9 @@ int main() {
 
 //31)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() {
+    int main() {
 
     int numero, i;
 
