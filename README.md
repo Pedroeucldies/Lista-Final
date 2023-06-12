@@ -634,7 +634,7 @@
     printf("A média da turma é: %.2f\n", media);
 
     return 0;
-}
+    }
 
 
 //26)
